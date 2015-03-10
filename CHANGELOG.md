@@ -7,3 +7,4 @@
 
 * Fix a failing spec
 * Add sns endpoing to fetch user info
+* Add Travis CI support
