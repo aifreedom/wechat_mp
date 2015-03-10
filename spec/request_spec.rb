@@ -53,5 +53,18 @@ describe WechatMP::Client do
         end
       end
     end
+
+    context "accessing sna endpoints" do
+      let!(:open_id) { 'openid' }
+      it "hits userinfo when calling #user_info" do
+          expect(client.requester).to receive(:get) do |url, params|
+            expect(url).to eql("/sns/userinfo")
+            expect(params).to eql(
+              :openid => open_id,
+            )
+          end
+          client.sns.user_info(open_id)
+      end
+    end
   end
 end
