@@ -6,7 +6,7 @@ describe WechatMP do
     let(:client) { WechatMP::Client.create }
 
     it "should find the health endpoint" do
-      expect(@client.Datacube.class).to eql(WechatMP::Endpoints::Datacube)
+      expect(client.datacube.class).to eql(WechatMP::Endpoints::Datacube)
     end
   end
 end
