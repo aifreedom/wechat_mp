@@ -22,6 +22,6 @@ The API documentation from WeChat can be found at http://mp.weixin.qq.com/wiki/h
 
 ## Code Status
 
-* [![Build Status](https://travis-ci.org/aifreedom/wechat_mp.svg?branch=songx%2Fadd-oauth-login)](https://travis-ci.org/aifreedom/wechat_mp)
+* [![Build Status](https://travis-ci.org/aifreedom/wechat_mp.svg)](https://travis-ci.org/aifreedom/wechat_mp)
 * [![Code Climate](https://codeclimate.com/github/aifreedom/wechat_mp/badges/gpa.svg)](https://codeclimate.com/github/aifreedom/wechat_mp)
 * [![Test Coverage](https://codeclimate.com/github/aifreedom/wechat_mp/badges/coverage.svg)](https://codeclimate.com/github/aifreedom/wechat_mp)
