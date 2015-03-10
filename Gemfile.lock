@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    wechat_mp (0.0.1)
+    wechat_mp (0.1.0)
       saddle (~> 0.0.52)
 
 GEM
